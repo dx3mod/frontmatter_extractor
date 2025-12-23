@@ -1,3 +1,2 @@
 (library
- (public_name frontmatter-extractor)
- (name frontmatter_extractor))
+ (public_name frontmatter_extractor))

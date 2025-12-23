@@ -1,4 +1,4 @@
-type res = { matter : string option; body : string }
+type extracted = { matter : string option; body : string }
 
 let of_string ?(delimiter_char = '-') str =
   let start_matter_index = ref 0

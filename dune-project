@@ -1,4 +1,4 @@
-(lang dune 3.6)
+(lang dune 3.15)
 
 (name frontmatter_extractor)
 
@@ -16,4 +16,5 @@
 (package
  (name frontmatter_extractor)
  (synopsis "Just frontmatter extractor")
- (depends ocaml))
+ (depends ocaml)
+ (depopts yaml))

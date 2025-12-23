@@ -1,0 +1,6 @@
+(library
+ (name frontmatter_extractor_yaml)
+ (package frontmatter_extractor)
+ (optional)
+ (enabled_if "%{lib-available:yaml}")
+ (libraries frontmatter_extractor yaml))
